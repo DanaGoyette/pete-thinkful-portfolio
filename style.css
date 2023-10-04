@@ -32,7 +32,7 @@ p {
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
-  width: 600px;
+  max-width: 600px;
 }
 
 img {
@@ -46,10 +46,12 @@ hr {
 }
 
 nav div {
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+nav .nav-link {
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 /* a:link doesn't seem to work */
